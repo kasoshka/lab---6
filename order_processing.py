@@ -1,25 +1,19 @@
 from __future__ import annotations
-
 from dataclasses import dataclass
 from typing import Any, Dict, List, Optional, Tuple
 
-DEFAULT_CURRENCY = "USD"
 TAX_RATE = 0.21
-
 COUPON_SAVE10 = "SAVE10"
 COUPON_SAVE20 = "SAVE20"
 COUPON_VIP = "VIP"
-
 SAVE10_RATE = 0.10
-
 SAVE20_THRESHOLD = 200
 SAVE20_HIGH_RATE = 0.20
 SAVE20_LOW_RATE = 0.05
-
 VIP_DISCOUNT_DEFAULT = 50
 VIP_DISCOUNT_LOW_SUBTOTAL = 10
 VIP_LOW_SUBTOTAL_THRESHOLD = 100
-
+DEFAULT_CURRENCY = "USD"
 ORDER_ID_SUFFIX = "X"
 
 
@@ -143,5 +137,6 @@ def process_checkout(request: dict) -> dict:
         "total": total,
         "items_count": len(items),
     }
+
 
 
