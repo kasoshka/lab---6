@@ -1,4 +1,4 @@
-# Lab 6 — Refactoring & Code Smells
+# Lab 6 - Refactoring & Code Smells
 
 ## Обнаруженные проблемы качества (code smells)
 - Использование числовых значений без пояснений в расчётах налогов и скидок.
