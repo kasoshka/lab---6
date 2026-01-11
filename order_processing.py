@@ -143,3 +143,5 @@ def process_checkout(request: dict) -> dict:
         "total": total,
         "items_count": len(items),
     }
+
+
